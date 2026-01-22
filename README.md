@@ -9,3 +9,5 @@ What's Up?
 
 5. Read and learn
 <img width="1177" height="797" alt="image" src="https://github.com/user-attachments/assets/3a207fa3-c233-45e8-b253-ebd699d93378" />
+
+My email : pbigdelian@brock.ca
