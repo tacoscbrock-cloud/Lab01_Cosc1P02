@@ -58,7 +58,7 @@ public class CodeTutor {
         private final Color TEXT_DARK_GREY = new Color(55, 55, 65);
 
         TutorFrame() {
-            super("Java Code Tutor (Animated) - Pastel Purple/Pink/Mint");
+            super("Java Code   Tutor ");
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             setSize(1200, 820);
             setLocationRelativeTo(null);
@@ -134,11 +134,11 @@ public class CodeTutor {
 
             addRow(p, c, r2++, 2, "rows:", rowsField);
             addRow(p, c, r2++, 2, "Outer START:", outerStartField);
-            addRow(p, c, r2++, 2, "Outer COND:", outerConditionField);
+             addRow(p, c, r2++, 2, "Outer COND:", outerConditionField);
             addRow(p, c, r2++, 2, "Outer STEP:", outerStepField);
 
-            addRow(p, c, r2++, 2, "Inner START:", innerStartField);
-            addRow(p, c, r2++, 2, "Inner COND:", innerConditionField);
+             addRow(p, c, r2++, 2, "Inner START:", innerStartField);
+             addRow(p, c, r2++, 2, "Inner COND:", innerConditionField);
             addRow(p, c, r2++, 2, "Inner STEP:", innerStepField);
 
             JButton refresh = new JButton("Refresh");
@@ -202,7 +202,7 @@ public class CodeTutor {
             explainPane.setFont(new Font("SansSerif", Font.PLAIN, 16));
             explainPane.setMargin(new Insets(10, 10, 10, 10));
             explainPane.setBackground(PASTEL_PINK);
-            explainPane.setForeground(TEXT_DARK_GREY);
+             explainPane.setForeground(TEXT_DARK_GREY);
             explainPane.setCaretColor(TEXT_DARK_GREY);
             explainPane.setBorder(BorderFactory.createLineBorder(BORDER_PURPLE, 2));
 
@@ -275,7 +275,7 @@ public class CodeTutor {
 
         private void animateExplain(String text) {
             fullText = text;
-            typed = 0;
+             typed = 0;
             explainPane.setText("");
 
             typeTimer = new Timer(12, (ActionEvent e) -> {
@@ -368,7 +368,7 @@ public class CodeTutor {
         }
 
         String className() {
-            String s = classNameField.getText().trim();
+             String s = classNameField.getText().trim();
             if (s.isEmpty()) return "Exercise1";
             return s.replaceAll("[^A-Za-z0-9_]", "");
         }
