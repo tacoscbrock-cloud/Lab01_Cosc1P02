@@ -7,4 +7,5 @@ What's Up?
 3. right click and choose run main this will run the main entry point
 4. <img width="774" height="594" alt="image" src="https://github.com/user-attachments/assets/c1143c44-a8a9-4928-9713-789254a18993" />
 
-5.<img width="1177" height="797" alt="image" src="https://github.com/user-attachments/assets/3a207fa3-c233-45e8-b253-ebd699d93378" />
+5.Read and learn
+<img width="1177" height="797" alt="image" src="https://github.com/user-attachments/assets/3a207fa3-c233-45e8-b253-ebd699d93378" />
